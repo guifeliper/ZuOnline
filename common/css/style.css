@@ -45,3 +45,87 @@ table {
 
 /* Page CSS */
 
+.profile {
+	padding: 25px;
+}
+
+
+.profile__close {
+	width: 5%;
+	height: 300px;
+	font-size: 20px;
+	text-align: center;
+	background-color: gray;
+	float: left;
+}
+
+.profile__user {
+	width: 30%;
+	height: 300px;
+	text-align: center;
+	background-color: lightgray;
+	float: left;
+}
+
+	.user__picture {
+		margin-top: 25px;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		border-radius: 50px;
+		border: solid;
+		border-color: black;
+		background-color: gray;
+	}
+
+	.user__username {
+		margin-top: 25px;
+		text-transform: uppercase;
+		text-align: center;
+		display: inline-block;	
+	}
+
+	.user__button {
+		margin-top: 25px;
+		text-transform: uppercase;
+		text-align: center;
+		display: inline-block;
+	}
+
+.profile__navigation {
+	width: 60%;
+	height: 300px;
+	float: left;
+	background-color: gray;
+}
+
+	.navigation__list {
+		background-color: red;
+		width: 60%;
+		float: left;
+	}
+
+	.navigation__sublist {
+		background-color: lightblue;
+		float: left;
+		width: 40%;
+	}
+
+		.list__item {
+			line-height: 70px;
+		}
+
+		.sublist__item {
+			line-height: 30px; 
+		}
+
+.profile::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+
+
+
