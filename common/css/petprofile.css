@@ -1,0 +1,92 @@
+.header {
+	height: 80px;
+	padding-left: calc(100% )
+}
+
+	.header__burger-menu {
+	}
+
+	.header__logo {
+	}
+
+	.header__user-picture {
+	}
+
+	.header__divisor {
+	}
+
+	.header__pet-picture {
+	}
+
+	.header__pet-selector {
+	}
+
+.pet-profile {
+}
+	.pet-profile__bio {
+	}
+
+		.bio__pet-type {
+		}
+
+		.bio__pet-gender {
+		}
+
+		.bio__pet-name {
+		}
+
+		.bio__pet-chipID {
+		}
+
+		.bio__pet-details {
+		}
+
+		.pet-details__detail {
+		}
+	.pet-profile__graphs {
+	}
+
+		.graphs__graph-container {
+		}
+
+			.graph-container__title {
+			}
+
+			.graph-container__graph {
+			}
+	.pet-profile__treatment {
+	}
+		.treatment__title {
+		}
+
+		.treatment__item-container {
+		}
+			.item-container__item {
+			}
+
+			.item-container__dropdown {
+			}
+	.pet-profile__service-history {
+	}
+		.service-history__service-container {
+		}
+			.service-container__service-item {
+			}
+
+			.service-container__service-item--placeholder {
+			}
+
+		.service-history__show-more {
+		}
+
+
+
+
+
+
+
+
+
+
+
+
