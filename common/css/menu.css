@@ -1,6 +1,64 @@
-.button__Close {
-	box-sizing: border-box;
-	height: 23px;
-	width: 22.99px;
-	border: 5px solid #FFFFFF;
+body{
+	font-family: "Circular Std";
 }
+.menu__background {
+	height: 566.3px;
+	width: 100%;
+	background-color: #00A078;
+}
+.menu_close-logo{
+	padding: 3.22% 0 0 8.45%;
+	display: flex;
+	justify-content: flex-start;
+	line-height: 35px;
+}
+.menu__button-close {
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 35px;
+}
+.menu_logo{
+	height: 35px;
+	width: 80px;
+	background-color: #FFFFFF;
+	margin-left: 3.47%;
+}
+.profile__settings{
+	margin: 2.3% 0 0 16.81%;
+	height: 376px;
+	width: 187px;
+}
+
+.profile__photo{
+	background: #FFFFFF;
+	height: 187px;
+	width: 187px;	
+}
+.profile__name {
+	padding: 15px 1.18%;
+	height: 58px;
+	color: #FFFFFF;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 29px;
+	text-align: center;
+}
+
+.profile__block-rectangle{
+	margin-top: 30px;	
+	height: 32px;	
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.profile__block-rectangle::nth-child(1){
+	margin-top: 50px;	
+}
+
+.profile__rectangle-text {
+	color: #00A078;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 32px;
+	text-align: center;
+}
+
