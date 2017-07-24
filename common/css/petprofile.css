@@ -1,24 +1,87 @@
 .header {
 	height: 80px;
-	padding-left: calc(100% )
+	padding-left: 8.5%;
+	padding-right: 8.5%;
 }
 
 	.header__burger-menu {
+		height: 35px;
+		width: 35px;
+		font-size: 35px;
+		line-height: 35px;
+		text-align: center;
+		margin-top: 22.5px;
+		margin-bottom: 22.5px;
+		float: left;
 	}
 
 	.header__logo {
+		margin-left: 3.5%;
+		margin-top: 20.5px;
+		margin-bottom: 20.5px;
+		width: 73px;
+		height: 39px;
+		line-height: 39px;
+		font-size: 39px;
+		float: left;
+
+		background-color: lightgray;
+	}
+
+	.header__right {
+		float: right;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
 	}
 
 	.header__user-picture {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: solid;
+		border-width: 3px;
+		border-color: #00A078;
+		box-sizing: border-box;
+		display: inline-block;
+
+		background-color: lightgray;
 	}
 
 	.header__divisor {
+		width: 5px;
+		height: 50px;
+		background-color: #00A078;
+		display: inline-block;
+		margin-left: 30px;
 	}
 
 	.header__pet-picture {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: solid;
+		border-width: 3px;
+		border-color: #00A078;
+		box-sizing: border-box;
+		display: inline-block;
+		margin-left: 30px;
+
+		background-color: lightgray;
 	}
 
 	.header__pet-selector {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: solid;
+		border-width: 3px;
+		border-color: #00A078;
+		box-sizing: border-box;
+		display: inline-block;
+		margin-left: 30px;
+
+		background-color: lightgray;
 	}
 
 .pet-profile {
