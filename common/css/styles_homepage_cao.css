@@ -1,0 +1,27 @@
+.navbar__container{
+    margin-left: 10%; 
+    padding-top:25px;
+    align-content: center;
+    height: 40px;
+}
+
+.navbar__border::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.navbar--menuburguer{
+    float: left;
+    font-size: 40px;
+    color: #00A078;
+    line-height: 40px;
+    text-align: center;
+}
+.menu__logo{
+    float: left;
+	height: 40px;
+	
+    margin-left: 3.47%;
+    line-height: 40px;
+}
