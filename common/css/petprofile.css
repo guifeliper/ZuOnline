@@ -2,6 +2,9 @@
 	height: 80px;
 	padding-left: 8.5%;
 	padding-right: 8.5%;
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: #00A078;
 }
 
 	.header__burger-menu {
@@ -9,6 +12,7 @@
 		width: 35px;
 		font-size: 35px;
 		line-height: 35px;
+		color: #00A078;
 		text-align: center;
 		margin-top: 22.5px;
 		margin-bottom: 22.5px;
@@ -25,6 +29,7 @@
 		font-size: 39px;
 		float: left;
 
+
 		background-color: lightgray;
 	}
 
@@ -33,6 +38,8 @@
 		margin-top: 15px;
 		margin-bottom: 15px;
 		text-align: center;
+		line-height: 50px;
+		height: 50px;
 	}
 
 	.header__user-picture {
@@ -73,6 +80,9 @@
 	.header__pet-selector {
 		width: 50px;
 		height: 50px;
+		font-size: 20px;
+		line-height: 50px;
+		text-align: center;
 		border-radius: 50%;
 		border: solid;
 		border-width: 3px;
@@ -80,8 +90,6 @@
 		box-sizing: border-box;
 		display: inline-block;
 		margin-left: 30px;
-
-		background-color: lightgray;
 	}
 
 .pet-profile {
