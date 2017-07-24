@@ -1,17 +1,48 @@
-.navbar_container{
-    padding: 25px 0 0 10%; 
+.navbar__container{
+    margin-left: 10%; 
+    padding-top:25px;
     align-content: center;
+    height: 40px;
+}
+
+.navbar__border{
+
+}
+.navbar__border::after {
+    display: block;
+    content: '';
+    clear: both;
+    padding: 15px 20px;
+    border-bottom: 2px solid #00A078;
 }
 .navbar--menuburguer{
     display: inline-block;
     font-size: 40px;
     color: #00A078;
     line-height: 40px;
+    text-align: center;
 }
-.menu_logo{
+.menu__logo{
     display: inline-block;
 	height: 40px;
 	width: 80px;
 	background-color: #00A078;
-	margin-left: 3.47%;
+    margin-left: 3.47%;
+    line-height: 40px;
+}
+.profile__container{
+    height: 320px;
+}
+
+.servicos__container{
+    height: 480px;
+}
+.servicos__container--boletim-color{
+	background-color: #66C299;
+}
+.servicos__container--marcacoes-color{
+	background-color: #F9D46A;
+}
+.servicos__container--myPetStore-color{
+	background-color: #E796C0;
 }
