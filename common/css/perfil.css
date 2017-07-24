@@ -16,14 +16,14 @@
     border-bottom: 2px solid #00A078;
 }
 .navbar--menuburguer{
-    display: inline-block;
+    float: left;
     font-size: 40px;
     color: #00A078;
     line-height: 40px;
     text-align: center;
 }
 .menu__logo{
-    display: inline-block;
+    float: left;
 	height: 40px;
 	width: 80px;
 	background-color: #00A078;
@@ -31,7 +31,7 @@
     line-height: 40px;
 }
 .profile__container{
-    height: 320px;
+    height: 350px;
 }
 
 .servicos__container{
@@ -45,4 +45,16 @@
 }
 .servicos__container--myPetStore-color{
 	background-color: #E796C0;
+}
+.profile__container-information{
+    background-color: #E796C0;
+    height: 216px;
+    margin: 60px 123px;
+}
+.profile__photo {
+    background: #FFFFFF;
+	height: 215px;
+	width: 215px;
+    border: 3px solid #00A078;
+    float: left;
 }
