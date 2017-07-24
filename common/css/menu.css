@@ -51,7 +51,7 @@ body{
 	border-radius: 5px;
 	background-color: #FFFFFF;
 }
-.profile__block-rectangle::nth-child(1){
+.profile__block-rectangle:nth-child(1){
 	margin-top: 50px;	
 }
 
