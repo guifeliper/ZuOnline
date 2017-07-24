@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.col-md-6 {
+	padding: 0;
+	margin: 0;
+}
+
+.dog {
+	float: left;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.cat {
+	float: left;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.title {
+	text-align: center;	
+	position: relative;
+	padding-top: 40px;
+	color: white;
+}
+
+
