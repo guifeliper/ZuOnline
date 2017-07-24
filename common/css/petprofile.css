@@ -102,7 +102,7 @@
 	padding-right: 8.5%;
 	padding-top: 50px;
 
-	background-color: lightblue;
+	background-color: darkgray;
 }
 
 	.pet-profile__picture {
@@ -113,28 +113,46 @@
 		border-width: 5px;
 		border-color: #9475B4;
 		box-sizing: border-box;
+		margin-right: 2.3%;
+		float: 	left;
 
 		background-color: lightgray;
 
 	}
 
 	.pet-profile__bio {
-		float: left;
+		float: 	left;	
 		height: 222px;
-		padding-left: 2.3%;
 		background-color: red;
+		font-family: "Circular Std";
 	}
 
 		.bio__pet-type {
+			width: 44px;
+			height: 44px;
+
+			background-color: lightgray;
 		}
 
 		.bio__pet-gender {
+			width: 38px;
+			height: 38px;
+			border-radius: 50%;
+
+			background-color: lightgray;
 		}
 
 		.bio__pet-name {
+			color: #9475B4;
+			font-size: 39px;
+			font-weight: bold;
 		}
 
 		.bio__pet-chipID {
+			color: #9475B4;
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 26px;
 		}
 
 		.bio__pet-details {
@@ -142,6 +160,19 @@
 
 		.pet-details__detail {
 		}
+
+		.pet-details__detail > h1 {
+			color: #C8BDDD;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.pet-details__detail p {
+			color: #4A4A4A;
+			font-size: 18px;
+			font-weight: 300;
+		}
+
 	.pet-profile__graphs {
 	}
 
