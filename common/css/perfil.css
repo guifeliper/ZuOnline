@@ -1,0 +1,17 @@
+.navbar_container{
+    padding: 25px 0 0 10%; 
+    align-content: center;
+}
+.navbar--menuburguer{
+    display: inline-block;
+    font-size: 40px;
+    color: #00A078;
+    line-height: 40px;
+}
+.menu_logo{
+    display: inline-block;
+	height: 40px;
+	width: 80px;
+	background-color: #00A078;
+	margin-left: 3.47%;
+}
