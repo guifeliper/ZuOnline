@@ -98,8 +98,6 @@
 	}
 
 .pet-profile {
-	padding-left: 8.5%;
-	padding-right: 8.5%;
 	padding-top: 50px;
 }
 
@@ -124,6 +122,8 @@
 	}
 
 	.pet-profile__bio {
+		margin-left: 8.5%;
+		margin-right: 8.5%;
 		height: 222px;
 		font-family: "Circular Std";
 	}
@@ -200,10 +200,15 @@
 
 	.pet-profile__graphs {
 		background-color: lightblue;
+		margin-left: 3.5%;
+		margin-right: 3.5%;
 	}
 
 
 		.graphs__graph-container {
+			float: left;
+			margin-left: 5%;
+			margin-right: 5%;
 			text-align: center;
 			width: 40%;
 			background-color: black;
