@@ -1,0 +1,61 @@
+.navbar__container {
+    margin-left: 10%; 
+    padding-top:25px;
+    align-content: center;
+    height: 40px;
+}
+
+.navbar__border::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.navbar--menuburguer {
+    float: left;
+    font-size: 40px;
+    color: #00A078;
+    line-height: 40px;
+    text-align: center;
+}
+.menu__logo {
+    float: left;
+	height: 40px;
+	
+    margin-left: 3.47%;
+    line-height: 40px;
+}
+
+.header_topo {
+	width: 100%;
+	height: 449px;
+	background-color: #66C299;
+	margin-top: 50px;
+	padding: 2%;
+}
+
+.title_header_topo {
+	height: 280px;	
+	width: 1028px;	
+	color: #323132;	
+	font-family: Rubik;	
+	font-size: 66px;	
+	font-weight: bold;	
+	line-height: 70px;
+}
+
+.products {
+	height: 68px;	
+	width: 225px;
+	border-radius: 5px;	
+	background-color: #322F31;
+	float: right;
+}
+
+.services {
+	height: 68px;	
+	width: 225px;
+	border-radius: 5px;	
+	background-color: #322F31;
+	float: right;
+}
