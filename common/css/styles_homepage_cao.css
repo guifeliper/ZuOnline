@@ -21,16 +21,21 @@
 .menu__logo {
     float: left;
 	height: 40px;
-	
     margin-left: 3.47%;
     line-height: 40px;
+}
+
+.container {
+	width: 100%;
+	padding: 6%;
+	margin: 0;
 }
 
 .header_topo {
 	width: 100%;
 	height: 449px;
 	background-color: #66C299;
-	margin-top: 50px;
+	margin-top: 10px;
 	padding: 2%;
 }
 
@@ -44,18 +49,73 @@
 	line-height: 70px;
 }
 
-.products {
+.products, .services {
 	height: 68px;	
 	width: 225px;
 	border-radius: 5px;	
 	background-color: #322F31;
+	margin-right: 30px;
 	float: right;
 }
 
-.services {
+.perfil {
+	width: 100%;
+	height: 513px;
+	background-color: #F8C6D2;
+	margin-top: 50px;
+	padding: 2%, 0, 2%, 2%;
+}
+
+.left_side_perfil {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.title_perfil {
+	height: 280px;	
+	width: 339px;	
+	color: #323132;	
+	font-family: Rubik;	
+	font-size: 66px;	
+	font-weight: bold;	
+	line-height: 70px;
+}
+
+.vermais {
 	height: 68px;	
 	width: 225px;
 	border-radius: 5px;	
 	background-color: #322F31;
+	margin-right: 30px;
+	margin-top: 100px;
+}
+
+.img-fluid {
+	width: 100%;
+}
+
+.right_side_perfil {
 	float: right;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.comportamento {
+	width: 100%;
+	height: 618px;
+	background-color: #009F78;
+	margin-top: 50px;
+	padding: 2%, 0, 2%, 2%;
+}
+
+.title_comportamento {
+	height: 280px;	
+	width: 100%;	
+	color: #323132;	
+	font-family: Rubik;	
+	font-size: 66px;	
+	font-weight: bold;	
+	line-height: 70px;
 }
