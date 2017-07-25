@@ -101,17 +101,15 @@
 	padding-left: 8.5%;
 	padding-right: 8.5%;
 	padding-top: 50px;
-
-	background-color: blue;
 }
 
 .pet-profile::after {
 	display: block;
 	content: '';
-	clear: 	both;
+	clear: both;
 }
 
-	.pet-profile__picture {
+	.bio__pet-picture {
 		float: left;
 		width: 211px;
 		height: 211px;
@@ -126,25 +124,18 @@
 	}
 
 	.pet-profile__bio {
-		float: left;
 		height: 222px;
-		background-color: red;
 		font-family: "Circular Std";
 	}
 
 		.bio__container-typegender {
-			float: left;
-			background-color: black;
+			text-align: left;
+			font-size: 0;
 		}
 
-		.bio__container-typegender::after {
-			display: block;
-			content: '';
-			clear: both;
-		}
 
 			.container-typegender__type {
-				float: left;
+				display: inline-block;
 				width: 44px;
 				height: 38px;
 
@@ -152,7 +143,8 @@
 			}
 
 			.container-typegender__gender {
-				float: left;
+				margin-left: 50px;
+				display: inline-block;
 				width: 38px;
 				height: 38px;
 				border-radius: 50%;
@@ -161,45 +153,69 @@
 			}
 
 		.bio__container-namechip {
+			margin-top: 22px;
 			font-family: "Circular Std";
-			background-color: green;
+			font-weight: bold;
 		}
 
 			.container-namechip__name {
 				color: #9475B4;
 				font-size: 39px;
-				font-weight: bold;
 			}
 
 			.container-namechip__chip {
 				margin-top: 36.5px;
 				color: #9475B4;
 				font-size: 18px;
-				font-weight: bold;
 			}
 
 		.bio__pet-details {
+			float: left;
+			text-align: left;
 		}
 
-		.pet-details__detail {
-		}
+			.details__details-container {
+				font-family: "Circular Std";
 
-		.details__title {
-		}
+				background-color: red;
+			}
 
-		.details__info {
-		}
+				.details-container__pet-detail {
+					float: left;
+
+					background-color: blue;
+				}
+
+					.pet-detail__title {
+						color: #C8BDDD;
+						font-size: 14px;
+						font-weight: bold;
+					}
+
+					.pet-detail__info {
+						color: #4A4A4A;
+						font-size: 18px;
+						font-weight: 300;
+					}
 
 	.pet-profile__graphs {
+		background-color: lightblue;
 	}
 
+
 		.graphs__graph-container {
+			text-align: center;
+			width: 40%;
+			background-color: black;
 		}
 
 			.graph-container__title {
+				text-align: left;
+				background-color: blue;
 			}
 
 			.graph-container__graph {
+				background-color: red;
 			}
 	.pet-profile__treatment {
 	}
