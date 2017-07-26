@@ -34,9 +34,6 @@
 		line-height: 39px;
 		font-size: 39px;
 		float: left;
-
-
-		background-color: lightgray;
 	}
 
 	.header__right {
@@ -57,7 +54,10 @@
 		box-sizing: border-box;
 		display: inline-block;
 
-		background-color: lightgray;
+		background-image: url("/common/img/userPhoto.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover;   
 	}
 
 	.header__divisor {
@@ -79,7 +79,10 @@
 		display: inline-block;
 		margin-left: 30px;
 
-		background-color: lightgray;
+		background-image: url("/common/img/dog.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover;   
 	}
 
 	.header__pet-selector {
@@ -98,14 +101,11 @@
 	}
 
 .pet-profile {
-	padding-left: 8.5%;
-	padding-right: 8.5%;
 	padding-top: 50px;
-
-	background-color: lightblue;
 }
 
-	.pet-profile__picture {
+	.bio__pet-picture {
+		float: left;
 		width: 211px;
 		height: 211px;
 		border-radius: 50%;
@@ -114,70 +114,272 @@
 		border-color: #9475B4;
 		box-sizing: border-box;
 
-		background-color: lightgray;
+		background-image: url("/common/img/dog.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover; 
 
 	}
 
 	.pet-profile__bio {
-		float: left;
+		margin-left: 8.5%;
+		margin-right: 8.5%;
 		height: 222px;
-		padding-left: 2.3%;
-		background-color: red;
+		font-family: "Circular Std";
 	}
 
-		.bio__pet-type {
+		.bio__container-typegender {
+			text-align: left;
+			font-size: 0;
 		}
 
-		.bio__pet-gender {
+
+			.container-typegender__type {
+				display: inline-block;
+				width: 44px;
+				height: 38px;
+
+				background-color: lightgray;
+			}
+
+			.container-typegender__gender {
+				margin-left: 50px;
+				display: inline-block;
+				width: 38px;
+				height: 38px;
+				border-radius: 50%;
+
+				background-color: lightgray;
+			}
+
+		.bio__container-namechip {
+			margin-top: 22px;
+			font-family: "Circular Std";
+			font-weight: bold;
 		}
 
-		.bio__pet-name {
-		}
+			.container-namechip__name {
+				color: #9475B4;
+				font-size: 39px;
+			}
 
-		.bio__pet-chipID {
-		}
+			.container-namechip__chip {
+				margin-top: 36.5px;
+				color: #9475B4;
+				font-size: 18px;
+			}
 
 		.bio__pet-details {
+			float: left;
+			text-align: left;
 		}
 
-		.pet-details__detail {
-		}
+			.details__details-container {
+				font-family: "Circular Std";
+
+				background-color: red;
+			}
+
+				.details-container__pet-detail {
+					float: left;
+
+					background-color: blue;
+				}
+
+					.pet-detail__title {
+						color: #C8BDDD;
+						font-size: 14px;
+						font-weight: bold;
+					}
+
+					.pet-detail__info {
+						color: #4A4A4A;
+						font-size: 18px;
+						font-weight: 300;
+					}
+
 	.pet-profile__graphs {
+		margin-left: 3.5%;
+		margin-right: 3.5%;
 	}
 
+
 		.graphs__graph-container {
+			float: left;
+			margin-left: 5%;
+			margin-right: 5%;
+			text-align: center;
+			width: 40%;
+		}
+
+		.pet-profile__graphs::after {
+			display: block;
+			content: '';
+			clear: both;
 		}
 
 			.graph-container__title {
+				text-align: left;
+				color: #9475B4;
+				font-family: "Circular Std";
+				font-size: 39px;
+				font-weight: bold;
 			}
 
 			.graph-container__graph {
+				width: 513px;
+				margin-top: 47px;
+				border-left: solid;
+				border-bottom: solid;
+				border-width: 1px; 
+				border-color: #C7BCDC;
+				height: 388.91px;
+				box-sizing: border-box;
+
+				background-color: lightgray;
 			}
-	.pet-profile__treatment {
+
+	.pet-profile__treatments {
+		margin-left: 3.5%;
+		margin-right: 3.5%;
+		margin-top: 53px;
 	}
-		.treatment__title {
+
+	.pet-profile__treatments::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	.pet-profile__treatment {
+		float: left;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 40%;
+	}
+		.treatment__item-container {
+			margin-top: 50px;
 		}
 
-		.treatment__item-container {
+		.item-container__btm-row {
+			margin-top: 23.4px;
 		}
+
+
+		.treatment__title {
+			text-align: left;
+			color: #9475B4;
+			font-family: "Circular Std";
+			font-size: 39px;
+			font-weight: bold;
+		}
+
+
+
 			.item-container__item {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #9475B4;
+				box-sizing: border-box;
+			}
+
+			.item-container__item--placeholder {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #DDDDDD;
+				box-sizing: border-box;
 			}
 
 			.item-container__dropdown {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #9475B4;
+				box-sizing: border-box;
 			}
+
 	.pet-profile__service-history {
+		padding-left: 8.5%;
+		padding-right: 8.5%;
+		width: 100%;
+		margin-top: 103px;
+
+		background-color: blue;
 	}
+
+	.pet-profile__service-history::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	.service-history__title {
+		color: #9475B4;
+		font-family: "Circular Std";
+		font-size: 39px;
+		font-weight: bold;
+	}
+
 		.service-history__service-container {
+			display: flex;
+			flex-flow:
 		}
 			.service-container__service-item {
+				display: inline-block;
+				height: 215px;
+				width: 215px;
+				background-color: #9475B4;
+				margin-right: 30px;
+				margin-top: 50px;
 			}
 
 			.service-container__service-item--placeholder {
+				display: inline-block;
+				height: 215px;
+				width: 215px;
+				background-color: #DDDDDD;
+				margin-right: 30px;
+				margin-top: 50px;
 			}
 
 		.service-history__show-more {
+			text-align: center;
+			background-color: black;		
 		}
 
+		.show-more__btn {
+			display: inline-block;
+			border-radius: 5px;
+			height: 49.67px;
+			width: 150px;
+			color: #FFFFFF;
+			font-family: "Circular Std";
+			font-size: 18px;
+			font-weight: 900;
+			line-height: 49.67px;
+			text-align: center;
+			background-color: #9475B4;
+		}
 
 
 
