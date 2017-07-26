@@ -1,3 +1,6 @@
+body{
+	font-family: "Circular Std";
+}
 .header {
 	height: 80px;
 	padding-left: 8.5%;
@@ -103,7 +106,11 @@
 .pet-profile {
 	padding-top: 50px;
 }
-
+	.pet-profile__bio {
+		margin: 0 8.5% 0 8.5%;
+		height: 300px;
+		
+	}
 	.bio__pet-picture {
 		float: left;
 		width: 211px;
@@ -121,12 +128,7 @@
 
 	}
 
-	.pet-profile__bio {
-		margin-left: 8.5%;
-		margin-right: 8.5%;
-		height: 222px;
-		font-family: "Circular Std";
-	}
+
 
 		.bio__container-typegender {
 			text-align: left;
@@ -199,8 +201,8 @@
 					}
 
 	.pet-profile__graphs {
-		margin-left: 3.5%;
-		margin-right: 3.5%;
+		padding: 4% 3.5%;
+		background-color: #F5F2F8;
 	}
 
 
@@ -236,8 +238,13 @@
 				height: 388.91px;
 				box-sizing: border-box;
 
-				background-color: lightgray;
+				background-image: url("/common/img/graphAltura.png");
+   	 			background-repeat: no-repeat;
+    			background-position: center center;
+    			background-size:     cover; 
+
 			}
+
 
 	.pet-profile__treatments {
 		margin-left: 3.5%;
@@ -291,6 +298,7 @@
 			}
 
 			.item-container__item--placeholder {
+				position: relative;
 				display: inline-block;
 				text-align: center;
 				line-height: 73.5px;
@@ -320,11 +328,10 @@
 
 	.pet-profile__service-history {
 		padding-left: 8.5%;
-		padding-right: 8.5%;
 		width: 100%;
 		margin-top: 103px;
 
-		background-color: blue;
+		background-color: #F5F2F8;
 	}
 
 	.pet-profile__service-history::after {
@@ -338,6 +345,9 @@
 		font-family: "Circular Std";
 		font-size: 39px;
 		font-weight: bold;
+		height: 46px;
+
+}
 	}
 
 		.service-history__service-container {
@@ -353,30 +363,46 @@
 				margin-top: 50px;
 			}
 
-			.service-container__service-item--placeholder {
-				display: inline-block;
-				height: 215px;
-				width: 215px;
+			.service-container__service-item:nth-child(-n+3) {
 				background-color: #DDDDDD;
-				margin-right: 30px;
-				margin-top: 50px;
 			}
-
+					.service-item__title {
+						height: 20px;
+						color: #C8BDDD;
+						font-size: 14px;
+						font-weight: bold;
+						line-height: 20px;
+						margin: 20px 0 0 20px;
+					}
+					.service-item__text {
+						height: 26px;
+						color: #FFFFFF;
+						font-size: 18px;
+						font-weight: 300;
+						line-height: 26px;
+						margin-left: 20px;
+					}
+					.service-item__title--color {
+						color: #9B9B9B;
+					}
+					
+					.service-item__icon{
+							margin: 15px 0 0 140px;
+					}
 		.service-history__show-more {
 			text-align: center;
-			background-color: black;		
+			margin: 50px 0;		
 		}
 
 		.show-more__btn {
 			display: inline-block;
 			border-radius: 5px;
-			height: 49.67px;
+			height: 50px;
 			width: 150px;
 			color: #FFFFFF;
-			font-family: "Circular Std";
 			font-size: 18px;
 			font-weight: 900;
-			line-height: 49.67px;
+			line-height: 50px;
 			text-align: center;
 			background-color: #9475B4;
 		}
