@@ -104,22 +104,20 @@ body{
 	}
 
 .pet-profile {
-	padding-top: 50px;
+	/* padding-top: 50px; */
 }
 	.pet-profile__bio {
-		margin: 0 8.5% 0 8.5%;
-		height: 300px;
-		
+		height: 216px;
+		margin: 60px 123px;
+		background: #FFFFFF;
 	}
 	.bio__pet-picture {
 		float: left;
-		width: 211px;
-		height: 211px;
-		border-radius: 50%;
-		border: solid;
-		border-width: 5px;
-		border-color: #9475B4;
+		width: 215px;
+		height: 215px;
+		border: 3px solid #9475B4;
 		box-sizing: border-box;
+
 
 		background-image: url("/common/img/dog.png");
    	 	background-repeat: no-repeat;
@@ -127,9 +125,63 @@ body{
     	background-size:     cover; 
 
 	}
+	.pet__FocusInformation{
+		float:left;
+		width: 160px;
+		margin: 10px 0px 0px 32px;
 
+	}
+	.pet__icon{
+		height: 38px;
+		width: 38px;
+		display: inline-block;
+	}
+	.pet__icon:last-child{
+		margin-left: 60px;
+	}
+	.pet__Name{
+		height: 46px;
+		width: 79px;
+		color: #9475B4;
+		font-size: 39px;
+		font-weight: bold;
+		line-height: 46px;
+		margin-top: 25px;
 
-
+	}
+	.pet__Id-Information{
+		margin-top: 20px;
+	}
+	.pet__Id-title, .pet__Id-text {
+		color: #9475B4;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 26px;
+	}
+	.pet__Information{
+		float:left;
+		width: 365px;
+		margin: 10px 0px 0px 115px;
+	}
+	.pet__title:nth-last-child(-n+4){
+		margin-top: 20px;
+	}
+	
+	.pet__title{
+		height: 20px;
+		color: #C8BDDD;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+	.pet__text {
+		height: 26px;
+		color: #4A4A4A;
+		font-family: "Circular Std";
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 26px;
+	}
 		.bio__container-typegender {
 			text-align: left;
 			font-size: 0;
