@@ -34,9 +34,6 @@
 		line-height: 39px;
 		font-size: 39px;
 		float: left;
-
-
-		background-color: lightgray;
 	}
 
 	.header__right {
@@ -57,7 +54,10 @@
 		box-sizing: border-box;
 		display: inline-block;
 
-		background-color: lightgray;
+		background-image: url("/common/img/userPhoto.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover;   
 	}
 
 	.header__divisor {
@@ -79,7 +79,10 @@
 		display: inline-block;
 		margin-left: 30px;
 
-		background-color: lightgray;
+		background-image: url("/common/img/dog.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover;   
 	}
 
 	.header__pet-selector {
@@ -101,12 +104,6 @@
 	padding-top: 50px;
 }
 
-.pet-profile::after {
-	display: block;
-	content: '';
-	clear: both;
-}
-
 	.bio__pet-picture {
 		float: left;
 		width: 211px;
@@ -117,7 +114,10 @@
 		border-color: #9475B4;
 		box-sizing: border-box;
 
-		background-color: lightgray;
+		background-image: url("/common/img/dog.png");
+   	 	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size:     cover; 
 
 	}
 

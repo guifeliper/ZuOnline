@@ -1,4 +1,5 @@
 angular.module('zuOnline').controller('HeaderSiteController', [
+<<<<<<< HEAD
     '$location',
     function HeaderSiteController($location) {
         'use strict';
@@ -15,5 +16,9 @@ angular.module('zuOnline').controller('HeaderSiteController', [
             }
         	
         }
+=======
+    function HeaderSiteController() {
+        'use strict';     
+>>>>>>> 692c4674231a5bffe3eb0b201bd5412caf896c9f
     }
 ]);
