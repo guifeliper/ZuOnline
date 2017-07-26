@@ -1,8 +1,49 @@
 <header>
+<div class="container-fluid position__absolute" ng-hide="$ctrl.activeMenu">
+        <div class="row">
+            <div class="menu__background">
+                <div class="menu_close-logo">
+                    <div class="fa fa-times menu__button-close"
+                   		ng-click="$ctrl.toggleMenu()">
+                    </div>
+                    <div class="menu_logo"> </div>
+                </div>
+                <div class="profile__settings">
+                    <div class="img-circle profile__photo"></div>
+                    <div class="profile__name">Franklin Frank</div>
+                    <div class="profile__block-rectangle">
+                        <div class="profile__rectangle-text">
+                            Ver perfil
+                        </div>
+                    </div>
+                    <div class="profile__block-rectangle">
+                        <div class="profile__rectangle-text">
+                            Logout
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__itens-container"> 
+                    <div class="menu__itens"><a href="#">Produtos</a></div>
+                    <div class="menu__itens"><a href="#">Serviços</a></div>
+                    <div class="menu__itens"><a href="#">Resp. Social</a></div>
+                    <div class="menu__itens"><a href="#">Comunidade</a></div>
+                    <div class="menu__itens"><a href="#">Truques e Dicas</a></div>
+                    <div class="menu__itens"><a href="#">Lojas</a></div>                  
+                </div> 
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
     <div class="navbar__border">
         <div class="navbar__container">
-            <div class="fa fa-bars navbar--menuburguer"></div>
+            <div class="fa fa-bars navbar--menuburguer" ng-click="$ctrl.toggleMenu()"></div>
             <img src="common/img/logo_zu_1.svg" class="menu__logo">
         </div>
     </div>
+    
 </header>
