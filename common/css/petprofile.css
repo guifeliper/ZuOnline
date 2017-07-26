@@ -199,7 +199,6 @@
 					}
 
 	.pet-profile__graphs {
-		background-color: lightblue;
 		margin-left: 3.5%;
 		margin-right: 3.5%;
 	}
@@ -211,42 +210,176 @@
 			margin-right: 5%;
 			text-align: center;
 			width: 40%;
-			background-color: black;
+		}
+
+		.pet-profile__graphs::after {
+			display: block;
+			content: '';
+			clear: both;
 		}
 
 			.graph-container__title {
 				text-align: left;
-				background-color: blue;
+				color: #9475B4;
+				font-family: "Circular Std";
+				font-size: 39px;
+				font-weight: bold;
 			}
 
 			.graph-container__graph {
-				background-color: red;
+				width: 513px;
+				margin-top: 47px;
+				border-left: solid;
+				border-bottom: solid;
+				border-width: 1px; 
+				border-color: #C7BCDC;
+				height: 388.91px;
+				box-sizing: border-box;
+
+				background-color: lightgray;
 			}
-	.pet-profile__treatment {
+
+	.pet-profile__treatments {
+		margin-left: 3.5%;
+		margin-right: 3.5%;
+		margin-top: 53px;
 	}
-		.treatment__title {
+
+	.pet-profile__treatments::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	.pet-profile__treatment {
+		float: left;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 40%;
+	}
+		.treatment__item-container {
+			margin-top: 50px;
 		}
 
-		.treatment__item-container {
+		.item-container__btm-row {
+			margin-top: 23.4px;
 		}
+
+
+		.treatment__title {
+			text-align: left;
+			color: #9475B4;
+			font-family: "Circular Std";
+			font-size: 39px;
+			font-weight: bold;
+		}
+
+
+
 			.item-container__item {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #9475B4;
+				box-sizing: border-box;
+			}
+
+			.item-container__item--placeholder {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #DDDDDD;
+				box-sizing: border-box;
 			}
 
 			.item-container__dropdown {
+				display: inline-block;
+				text-align: center;
+				line-height: 73.5px;
+				width: 73.5px;
+				height: 73.5px;
+				border-radius: 50%;
+				margin-right: 23px;
+				border: solid;
+				border-width: 5px;
+				border-color: #9475B4;
+				box-sizing: border-box;
 			}
+
 	.pet-profile__service-history {
+		padding-left: 8.5%;
+		padding-right: 8.5%;
+		width: 100%;
+		margin-top: 103px;
+
+		background-color: blue;
 	}
+
+	.pet-profile__service-history::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	.service-history__title {
+		color: #9475B4;
+		font-family: "Circular Std";
+		font-size: 39px;
+		font-weight: bold;
+	}
+
 		.service-history__service-container {
+			display: flex;
+			flex-flow:
 		}
 			.service-container__service-item {
+				display: inline-block;
+				height: 215px;
+				width: 215px;
+				background-color: #9475B4;
+				margin-right: 30px;
+				margin-top: 50px;
 			}
 
 			.service-container__service-item--placeholder {
+				display: inline-block;
+				height: 215px;
+				width: 215px;
+				background-color: #DDDDDD;
+				margin-right: 30px;
+				margin-top: 50px;
 			}
 
 		.service-history__show-more {
+			text-align: center;
+			background-color: black;		
 		}
 
+		.show-more__btn {
+			display: inline-block;
+			border-radius: 5px;
+			height: 49.67px;
+			width: 150px;
+			color: #FFFFFF;
+			font-family: "Circular Std";
+			font-size: 18px;
+			font-weight: 900;
+			line-height: 49.67px;
+			text-align: center;
+			background-color: #9475B4;
+		}
 
 
 
