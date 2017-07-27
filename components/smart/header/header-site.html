@@ -2,12 +2,10 @@
 <div class="container-fluid position__absolute" ng-show="$ctrl.activeMenu">
         <div class="row">
             <div class="menu__background">
-                <div class="menu_close-logo">
-                    <div class="fa fa-times menu__button-close"
-                   		ng-click="$ctrl.toggleMenu()">
-                    </div>
-                    <div class="menu_logo"> </div>
-                </div>
+            	<div class="navbar__container">
+	            	<div class="fa fa-times menu__button-close" ng-click="$ctrl.toggleMenu()"></div>
+	            	<img src="common/img/logo_zu_white.svg" class="menu__logo">
+        	</div>
                 <div class="profile__settings">
                     <div class="img-circle profile__photo"></div>
                     <div class="profile__name">Franklin Frank</div>
