@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="zuOnline">
 <head>
-	<title>My Profile</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Zu</title>
+	
 	<link rel="stylesheet" href="common/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 	<link rel="stylesheet" href="common/css/perfil.css">
+	<link rel="stylesheet" type="text/css" href="common/css/menu.css">
 </head>
 
 <body>
 	<header>
-		<div class="navbar__border">
-			<div class="navbar__container">
-				<div class="fa fa-bars navbar--menuburguer"></div>
-				<img src="common/img/logo_zu_1.svg" class="menu__logo">
-			</div>
-		</div>
+		<header-site></header-site>
 	</header>
 	<div class="section container-fluid">
 		<div class="row">
@@ -69,7 +71,13 @@
 	</div>
 
 
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="common/js/init.js"></script>
 
+
+	<!-- Smart components -->
+	<script type="text/javascript" src="components/smart/header/header-site-component.js"></script>
+	<script type="text/javascript" src="components/smart/header/header-site-controller.js"></script>
 </body>
 
 </html>
