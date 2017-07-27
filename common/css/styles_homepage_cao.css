@@ -151,17 +151,31 @@
 }
 
 .section-cao {
-	margin-top: 4em;
+	margin: 0 0 2em;
 }
 
-.perdidos {
-	padding-left: 0;
-	padding-right: 0;
-	background-color: #8FD0BF;
-	margin-right: 1em;
-	
+.section-cao .container {
+    padding: 0;
 }
 
+.section-cao .row {
+    margin: 0;
+}
+
+.section-cao .perdidos {
+    padding-top: 3em;
+	padding-left: 0;	
+}
+
+.section-cao .bomba {
+    padding-top: 3em;
+    padding-right: 0;    
+}
+
+.perdidos-cao {
+    background-color: #8FD0BF;
+    padding: 0;
+}
 
 .perdidos-cao h1 {
 	color: #323132;	
@@ -169,19 +183,12 @@
 	font-size: 66px;	
 	font-weight: bold;	
 	line-height: 70px;
-	padding-left: 0.2em;
+	padding: 0.2em 0.2em;
 }
 
-.perdidos-cao img {
-	margin: 0 auto;
-}
-
-
-.bomba {
-	padding-right: 0;
-	padding-left: 0;
+.bomba-cao {
 	background-color: #E796C0;
-
+    padding: 0;
 }
 
 .bomba-cao h1 {
@@ -190,7 +197,7 @@
 	font-size: 66px;	
 	font-weight: bold;	
 	line-height: 70px;
-	padding-left: 0.2em;
+	padding:0.2em 0.2em;
 
 }
 
