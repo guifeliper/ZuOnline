@@ -355,7 +355,7 @@ ul {
 
 
 .vermais_c {
-	float: none;
+	float: right;
 }
     }
 
@@ -364,33 +364,38 @@ ul {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 .header_topo h1 {	
-	font-size: 44px;
-    line-height: 48px;
+	font-size: 37px;
+    line-height: 41px;
 }
 
 .perfil-cao h1 {
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 41px;
 }
 
 .comportamento-cao h1 {
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 41px;
 }
 
 .perdidos-cao h1 {
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 41px;
 }
 
 .bomba-cao h1 {
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 41px;
 }
 
 .zumima .hastag {
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 41px;
+}
+
+.zumima h1 {
+    font-size: 25px;
+    line-height: 33px;
 }
 
 .menu-itens a {
@@ -421,8 +426,13 @@ ul {
     font-size: 15px; 	
 }
 
+.comportamento-cao .container {
+    height: 360px;
+    overflow: hidden;
+}
+
 .vermais_c {
-	float: none;
+	float: right;
 	height: 54px;	
 	width: 186px;
     font-size: 15px;
@@ -438,35 +448,116 @@ ul {
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+.header_topo h1 {   
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.perfil-cao h1 {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.comportamento-cao h1 {
+   font-size: 26px;
+    line-height: 32px;
+}
+
+.perdidos-cao h1 {
+   font-size: 26px;
+    line-height: 32px;
+}
+
+.bomba-cao h1 {
+   font-size: 26px;
+    line-height: 32px;
+}
+
+.zumima .hastag {
+  font-size: 26px;
+    line-height: 32px;
+}
+
+.zumima h1 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.products, .services {
+    height: 49px;
+    width: 153px;
+    font-size: 13px;   
+}
+
+.perfil-cao .vermais {
+    height: 49px;
+    width: 153px;
+    font-size: 13px;   
+}
+
 .vermais_c {
-	float: none;
+    height: 49px;
+    width: 153px;
+    font-size: 13px;
+	float: right;
+}
+
+.zumima .vermais {
+    height: 49px;
+    width: 153px;
+    font-size: 13px;
+}
+
+.menu-itens a {
+    font-size: 21px;        
+    line-height: 28px;
+}
+
+.menu-itens-social h1 {
+    font-size: 21px;        
+    line-height: 28px;
+    margin: 0 1em 0 1.6em;
 }
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-.title_header_topo {
-    width: 100%;
-    color: #323132;
-    font-family: Rubik;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 40px;
+.header_topo h1 {   
+    font-size: 26px;
+    line-height: 32px;
 }
-.left_side_perfil {
-    float: none;
-    width: 100%;
-    height: 100%;
-    padding: 2%;
+
+.perfil-cao h1 {
+    font-size: 26px;
+    line-height: 32px;
 }
-.title_perfil {
-    width: 100%;
-    color: #323132;
-    font-family: Rubik;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 35px;
+
+.comportamento-cao h1 {
+    font-size: 37px;
+    line-height: 41px;
 }
+
+.perdidos-cao h1 {
+    font-size: 37px;
+    line-height: 41px;
+}
+
+.bomba-cao h1 {
+    font-size: 37px;
+    line-height: 41px;
+}
+
+.zumima .hastag {
+    font-size: 37px;
+    line-height: 41px;
+}
+
+.zumima h1 {
+    font-size: 25px;
+    line-height: 33px;
+}
+
+
 .vermais_c {
 	float: none;
 }
@@ -474,29 +565,52 @@ ul {
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-.title_header_topo {
-    width: 100%;
-    color: #323132;
-    font-family: Rubik;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 40px;
-}
-.left_side_perfil {
-    float: none;
-    width: 100%;
-    height: 100%;
-    padding: 2%;
+
+.header_topo h1 {   
+    font-size: 20px;
+    line-height: 27px;
 }
 
-.title_perfil {
-    width: 100%;
-    color: #323132;
-    font-family: Rubik;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 35px;
+.perfil-cao h1 {
+    font-size: 20px;
+    line-height: 27px;
 }
+
+.comportamento-cao h1 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.perdidos-cao h1 {
+   font-size: 20px;
+    line-height: 27px;
+}
+
+.bomba-cao h1 {
+   font-size: 20px;
+    line-height: 27px;
+}
+
+.zumima .hastag {
+  font-size: 20px;
+    line-height: 27px;
+}
+
+.zumima h1 {
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.products, .services {
+    height: 41px;   
+    width: 129px;
+    float: left;
+    margin: 2em 5px 2em;
+    border:0;
+    font-size: 13px;
+
+}
+
 .vermais_c {
 	float: none;
 }
