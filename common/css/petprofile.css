@@ -88,7 +88,7 @@ body{
     	background-size:     cover;   
 	}
 
-	.header__pet-selector {
+	/* .header__pet-selector {
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
@@ -101,6 +101,22 @@ body{
 		font-size: 20px;
 		line-height: 50px;
 		text-align: center;
+		position: relative;
+	} */
+	.pet__round-item{
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border: 3px solid #00A078;
+		margin-left: 32px;
+		position: relative;
+	}
+	.pet__selector{
+		color: #00A078;
+		position: absolute;
+		right: 12px;
+		top: 10px;
+		font-size: 30px;
 	}
 
 .pet-profile {
@@ -163,8 +179,15 @@ body{
 		width: 365px;
 		margin: 10px 0px 0px 115px;
 	}
-	.pet__title:nth-last-child(-n+4){
-		margin-top: 20px;
+	.pet__id-Container:nth-child(n+2){
+		margin-top: 27px;
+	}
+	.pet__Id-Item{
+		display: inline-block;
+		width: 130px;
+	}
+	.pet__Id-Item:nth-child(even){
+		margin-left:100px;
 	}
 	
 	.pet__title{
@@ -182,6 +205,46 @@ body{
 		font-weight: 300;
 		line-height: 26px;
 	}
+	.pet__sick {
+		height: 25px;
+		width: 69px;
+		border-radius: 100px;
+		background-color: #9475B4;
+		color: #FFFFFF;
+		line-height: 25px;
+		text-align: center;
+		
+	}
+	.pet__buttons-container{
+		display: inline-block;
+		margin-left: 40px;
+	}
+	.pet__button-filled {
+		height: 50px;
+		width: 150px;
+		border-radius: 5px;
+		background-color: #9475B4;
+				
+		color: #FFFFFF;
+		font-size: 18px;
+		font-weight: 900;
+		line-height: 50px;
+		text-align: center;
+		margin: 50px 0 20px 0;
+	}
+
+	.pet__button-not-filled{
+		height: 1.04%;
+		width: 9.65%;
+		color: #9475B4;
+		font-size: 18px;
+		font-weight: 900;
+		line-height: 23px;
+		text-align: center;
+		margin: 0 50px;
+	}
+
+
 		.bio__container-typegender {
 			text-align: left;
 			font-size: 0;
@@ -336,46 +399,66 @@ body{
 
 
 			.item-container__item {
+				position: relative;
 				display: inline-block;
 				text-align: center;
-				line-height: 73.5px;
-				width: 73.5px;
-				height: 73.5px;
-				border-radius: 50%;
+				line-height: 74px;
+				width: 74px;
+				height: 74px;
 				margin-right: 23px;
-				border: solid;
-				border-width: 5px;
-				border-color: #9475B4;
+				border: 5px solid #9475B4;
 				box-sizing: border-box;
 			}
-
 			.item-container__item--placeholder {
 				position: relative;
 				display: inline-block;
 				text-align: center;
-				line-height: 73.5px;
-				width: 73.5px;
-				height: 73.5px;
-				border-radius: 50%;
+				line-height: 74px;
+				width: 74px;
+				height: 74px;
+
 				margin-right: 23px;
-				border: solid;
-				border-width: 5px;
-				border-color: #DDDDDD;
+				border: 5px solid #DDDDDD;
 				box-sizing: border-box;
 			}
 
 			.item-container__dropdown {
+				position: relative;
 				display: inline-block;
 				text-align: center;
-				line-height: 73.5px;
-				width: 73.5px;
-				height: 73.5px;
-				border-radius: 50%;
+				line-height: 74px;
+				width: 74px;
+				height: 74px;
 				margin-right: 23px;
-				border: solid;
-				border-width: 5px;
-				border-color: #9475B4;
+				border: 5px solid #9475B4;
 				box-sizing: border-box;
+			}
+			.item-container__value{
+				color: #9475B4;
+				position: absolute;
+				right: 20px;
+				top: 5px;
+				font-size: 30px;
+				font-weight: bold;
+				line-height: 46px;
+			}
+			.item-container__value-placeholder{
+				color: #DDDDDD;
+				position: absolute;
+				right: 20px;
+				top: 5px;
+				font-size: 30px;
+				font-weight: bold;
+				line-height: 46px;
+			}
+			.item-container__value-dropdown{
+				color: #9475B4;
+				position: absolute;
+				right: 20px;
+				top: 10px;
+				font-size: 39px;
+				font-weight: bold;
+				line-height: 46px;
 			}
 
 	.pet-profile__service-history {
@@ -398,13 +481,11 @@ body{
 		font-size: 39px;
 		font-weight: bold;
 		height: 46px;
-
-}
+		margin-top:5%;
 	}
 
 		.service-history__service-container {
-			display: flex;
-			flex-flow:
+			
 		}
 			.service-container__service-item {
 				display: inline-block;
