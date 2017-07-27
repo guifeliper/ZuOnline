@@ -17,6 +17,7 @@ body{
 	display: flex;
 	justify-content: flex-start;
 	line-height: 35px;
+	text-align: center;
 }
 .menu__button-close {
 	box-sizing: border-box;
